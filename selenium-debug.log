@@ -1,0 +1,126 @@
+15:24:27.055 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to tests/driver/chromedriver
+Setting system property webdriver.opera.driver to tests/driver/operadriver
+15:24:27.095 INFO - Java: Oracle Corporation 25.60-b23
+15:24:27.095 INFO - OS: Mac OS X 10.10.5 x86_64
+15:24:27.106 INFO - v2.47.1, with Core v2.47.1. Built from revision 411b314
+15:24:27.194 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+15:24:27.194 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+15:24:27.195 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+15:24:27.195 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+15:24:27.298 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+15:24:27.298 INFO - Selenium Server is up and running
+15:24:27.871 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
+15:24:27.871 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]])
+15:24:27.884 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]
+15:24:27.884 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]
+Starting ChromeDriver 2.19.346063 (38b35413bd4a486d436a9749e090454bc9ff6708) on port 1145
+Only local connections are allowed.
+15:24:30.791 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
+15:24:30.819 INFO - Executing: [get: http://www.google.com])
+15:24:31.731 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Test, browserName=firefox, javascriptEnabled=true, platform=ANY}]]
+15:24:31.759 INFO - Executing: [get: http://www.google.com])
+15:24:31.999 INFO - Done: [get: http://www.google.com]
+15:24:32.013 INFO - Executing: [maximise window])
+15:24:32.642 INFO - Done: [get: http://www.google.com]
+15:24:32.659 INFO - Executing: [maximise window])
+15:24:32.721 INFO - Done: [maximise window]
+15:24:32.731 INFO - Executing: [find elements: By.cssSelector: body])
+15:24:32.835 INFO - Done: [find elements: By.cssSelector: body]
+15:24:32.851 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: body]])
+15:24:32.884 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: body]]
+15:24:32.895 INFO - Executing: [get title])
+15:24:32.914 INFO - Done: [get title]
+15:24:32.921 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+15:24:32.952 INFO - Done: [find element: By.cssSelector: input[type=text]]
+15:24:32.957 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: input[type=text]]])
+15:24:32.983 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: input[type=text]]]
+15:24:32.994 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+15:24:33.014 INFO - Done: [find element: By.cssSelector: input[type=text]]
+15:24:33.023 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: input[type=text]], [G, o, o, g, l, e,  , 信, 件]])
+15:24:33.193 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: input[type=text]], [G, o, o, g, l, e,  , 信, 件]]
+15:24:33.280 INFO - Done: [maximise window]
+15:24:33.288 INFO - Executing: [find elements: By.cssSelector: body])
+15:24:33.356 INFO - Done: [find elements: By.cssSelector: body]
+15:24:33.359 INFO - Executing: [is displayed: 0 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: body]])
+15:24:33.366 INFO - Done: [is displayed: 0 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: body]]
+15:24:33.371 INFO - Executing: [get title])
+15:24:33.383 INFO - Done: [get title]
+15:24:33.392 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+15:24:33.401 INFO - Done: [find element: By.cssSelector: input[type=text]]
+15:24:33.406 INFO - Executing: [is displayed: 1 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: input[type=text]]])
+15:24:33.419 INFO - Done: [is displayed: 1 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: input[type=text]]]
+15:24:33.424 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+15:24:33.433 INFO - Done: [find element: By.cssSelector: input[type=text]]
+15:24:33.438 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: input[type=text]], [G, o, o, g, l, e,  , 信, 件]])
+15:24:33.501 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: input[type=text]], [G, o, o, g, l, e,  , 信, 件]]
+15:24:36.202 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+15:24:36.211 INFO - Done: [find element: By.cssSelector: input[type=text]]
+15:24:36.214 INFO - Executing: [clear: 1 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: input[type=text]]])
+15:24:36.233 INFO - Done: [clear: 1 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: input[type=text]]]
+15:24:36.510 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+15:24:36.518 INFO - Done: [find element: By.cssSelector: input[type=text]]
+15:24:36.521 INFO - Executing: [clear: 1 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: input[type=text]]])
+15:24:36.538 INFO - Done: [clear: 1 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: input[type=text]]]
+15:24:39.239 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+15:24:39.254 INFO - Done: [find element: By.cssSelector: input[type=text]]
+15:24:39.258 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: input[type=text]], [G, o, o, g, l, e, 翻, 譯]])
+15:24:39.332 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: input[type=text]], [G, o, o, g, l, e, 翻, 譯]]
+15:24:39.335 INFO - Executing: [find element: By.cssSelector: input[type=button].lsb])
+15:24:39.363 INFO - Done: [find element: By.cssSelector: input[type=button].lsb]
+15:24:39.370 INFO - Executing: [mousemove: 2 true])
+15:24:39.395 INFO - Done: [mousemove: 2 true]
+15:24:39.549 INFO - Executing: [find element: By.cssSelector: input[type=text]])
+15:24:39.562 INFO - Done: [find element: By.cssSelector: input[type=text]]
+15:24:39.565 INFO - Executing: [send keys: 1 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: input[type=text]], [G, o, o, g, l, e, 翻, 譯]])
+15:24:39.625 INFO - Done: [send keys: 1 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: input[type=text]], [G, o, o, g, l, e, 翻, 譯]]
+15:24:39.628 INFO - Executing: [find element: By.cssSelector: input[type=button].lsb])
+15:24:39.641 INFO - Done: [find element: By.cssSelector: input[type=button].lsb]
+15:24:39.645 INFO - Executing: [mousemove: 2 true])
+15:24:39.692 INFO - Done: [mousemove: 2 true]
+15:24:45.403 INFO - Executing: [find element: By.cssSelector: div])
+15:24:45.418 INFO - Done: [find element: By.cssSelector: div]
+15:24:45.421 INFO - Executing: [is displayed: 3 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: div]])
+15:24:45.434 INFO - Done: [is displayed: 3 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: div]]
+15:24:45.438 INFO - Executing: [find elements: By.cssSelector: input[type=submit]])
+15:24:45.454 INFO - Done: [find elements: By.cssSelector: input[type=submit]]
+15:24:45.457 INFO - Executing: [is displayed: 4 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: input[type=submit]]])
+15:24:45.471 INFO - Done: [is displayed: 4 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: input[type=submit]]]
+15:24:45.475 INFO - Executing: [find element: By.cssSelector: div#sbse0])
+15:24:45.494 INFO - Done: [find element: By.cssSelector: div#sbse0]
+15:24:45.501 INFO - Executing: [click: 6 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: div#sbse0]])
+15:24:45.574 INFO - Done: [click: 6 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: div#sbse0]]
+15:24:45.700 INFO - Executing: [find element: By.cssSelector: div])
+15:24:45.711 INFO - Done: [find element: By.cssSelector: div]
+15:24:45.724 INFO - Executing: [is displayed: 3 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: div]])
+15:24:45.734 INFO - Done: [is displayed: 3 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: div]]
+15:24:45.738 INFO - Executing: [find elements: By.cssSelector: input[type=submit]])
+15:24:45.745 INFO - Done: [find elements: By.cssSelector: input[type=submit]]
+15:24:45.749 INFO - Executing: [is displayed: 4 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: input[type=submit]]])
+15:24:45.762 INFO - Done: [is displayed: 4 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: input[type=submit]]]
+15:24:45.768 INFO - Executing: [find element: By.cssSelector: div#sbse0])
+15:24:45.776 INFO - Done: [find element: By.cssSelector: div#sbse0]
+15:24:45.780 INFO - Executing: [click: 6 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: div#sbse0]])
+15:24:45.885 INFO - Done: [click: 6 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: div#sbse0]]
+15:24:48.583 INFO - Executing: [find element: By.cssSelector: ol#rso h3.r a])
+15:24:48.601 INFO - Done: [find element: By.cssSelector: ol#rso h3.r a]
+15:24:48.604 INFO - Executing: [get text: 7 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: ol#rso h3.r a]])
+15:24:48.622 INFO - Done: [get text: 7 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: ol#rso h3.r a]]
+15:24:48.627 INFO - Executing: [find element: By.cssSelector: input#lst-ib])
+15:24:48.646 INFO - Done: [find element: By.cssSelector: input#lst-ib]
+15:24:48.650 INFO - Executing: [get element attribute: 1 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: input[type=text]], value])
+15:24:48.662 INFO - Done: [get element attribute: 1 [[ChromeDriver: chrome on MAC (cf3e02aa07f735ef47a143cfd494f1cd)] -> css selector: input[type=text]], value]
+15:24:48.666 INFO - Executing: [delete session: 938c17ed-1d06-4901-9239-13b3ceac8266])
+15:24:48.911 INFO - Executing: [find element: By.cssSelector: ol#rso h3.r a])
+15:24:48.952 INFO - Done: [find element: By.cssSelector: ol#rso h3.r a]
+15:24:48.958 INFO - Executing: [get text: 7 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: ol#rso h3.r a]])
+15:24:49.025 INFO - Done: [get text: 7 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: ol#rso h3.r a]]
+15:24:49.035 INFO - Executing: [find element: By.cssSelector: input#lst-ib])
+15:24:49.044 INFO - Done: [find element: By.cssSelector: input#lst-ib]
+15:24:49.048 INFO - Executing: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: input[type=text]], value])
+15:24:49.057 INFO - Done: [get element attribute: 1 [[FirefoxDriver: firefox on MAC (2cf4bd2d-9ee4-2346-9c5c-478935473b66)] -> css selector: input[type=text]], value]
+15:24:49.062 INFO - Executing: [delete session: 0dd46494-8fee-464e-a456-ac9c89f6f843])
+15:24:49.158 INFO - Done: [delete session: 0dd46494-8fee-464e-a456-ac9c89f6f843]
+15:24:49.238 INFO - Done: [delete session: 938c17ed-1d06-4901-9239-13b3ceac8266]
