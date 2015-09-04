@@ -7,13 +7,13 @@
   "globals_path" : "",
 
   "selenium" : {
-    "start_process" : false,
-    "server_path" : "",
-    "log_path" : "",
+    "start_process" : true,
+    "server_path" : "./selenium-server-standalone-2.47.1.jar",
+    "log_path" : "./",
     "host" : "127.0.0.1",
     "port" : 4444,
     "cli_args" : {
-      "webdriver.chrome.driver" : "",
+      "webdriver.chrome.driver" : "tests/driver/chromedriver",
       "webdriver.ie.driver" : ""
     }
   },
